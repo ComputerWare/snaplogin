@@ -15,7 +15,7 @@ app.use(express.static(webdirectory));
 
 httpserver.listen(port_to_run);
 
-console.log(`Server running at on https://ssnapchat.surge.sh/ and locally at http://localhost:${port_to_run}/`);
+console.log(`Server running locally at http://localhost:${port_to_run}/`);
 
 io.on('connection', (socket) => {
     console.log('A user connected');
