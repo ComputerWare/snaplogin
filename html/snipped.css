@@ -1,0 +1,675 @@
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-UltraLight.woff2) format("woff2"),url(fonts/AvenirNext-UltraLight.woff) format("woff"),url(fonts/AvenirNext-UltraLight.ttf) format("truetype");
+  font-weight:100;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-UltraLightItalic.woff2) format("woff2"),url(fonts/AvenirNext-UltraLightItalic.woff) format("woff"),url(fonts/AvenirNext-UltraLightItalic.ttf) format("truetype");
+  font-weight:100;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-UltraLight.woff2) format("woff2"),url(fonts/AvenirNext-UltraLight.woff) format("woff"),url(fonts/AvenirNext-UltraLight.ttf) format("truetype");
+  font-weight:200;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-UltraLightItalic.woff2) format("woff2"),url(fonts/AvenirNext-UltraLightItalic.woff) format("woff"),url(fonts/AvenirNext-UltraLightItalic.ttf) format("truetype");
+  font-weight:200;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Regular.woff2) format("woff2"),url(fonts/AvenirNext-Regular.woff) format("woff"),url(fonts/AvenirNext-Regular.ttf) format("truetype");
+  font-weight:300;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Italic.woff2) format("woff2"),url(fonts/AvenirNext-Italic.woff) format("woff"),url(fonts/AvenirNext-Italic.ttf) format("truetype");
+  font-weight:300;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Medium.woff2) format("woff2"),url(fonts/AvenirNext-Medium.woff) format("woff"),url(fonts/AvenirNext-Medium.ttf) format("truetype");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-MediumItalic.woff2) format("woff2"),url(fonts/AvenirNext-MediumItalic.woff) format("woff"),url(fonts/AvenirNext-MediumItalic.ttf) format("truetype");
+  font-weight:400;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Medium.woff2) format("woff2"),url(fonts/AvenirNext-Medium.woff) format("woff"),url(fonts/AvenirNext-Medium.ttf) format("truetype");
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-MediumItalic.woff2) format("woff2"),url(fonts/AvenirNext-MediumItalic.woff) format("woff"),url(fonts/AvenirNext-MediumItalic.ttf) format("truetype");
+  font-weight:500;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-DemiBold.woff2) format("woff2"),url(fonts/AvenirNext-DemiBold.woff) format("woff"),url(fonts/AvenirNext-DemiBold.ttf) format("truetype");
+  font-weight:600;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-DemiBoldItalic.woff2) format("woff2"),url(fonts/AvenirNext-DemiBoldItalic.woff) format("woff"),url(fonts/AvenirNext-DemiBoldItalic.ttf) format("truetype");
+  font-weight:600;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Bold.woff2) format("woff2"),url(fonts/AvenirNext-Bold.woff) format("woff"),url(fonts/AvenirNext-Bold.ttf) format("truetype");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-BoldItalic.woff2) format("woff2"),url(fonts/AvenirNext-BoldItalic.woff) format("woff"),url(fonts/AvenirNext-BoldItalic.ttf) format("truetype");
+  font-weight:700;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Heavy.woff2) format("woff2"),url(fonts/AvenirNext-Heavy.woff) format("woff"),url(fonts/AvenirNext-Heavy.ttf) format("truetype");
+  font-weight:800;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-HeavyItalic.woff2) format("woff2"),url(fonts/AvenirNext-HeavyItalic.woff) format("woff"),url(fonts/AvenirNext-HeavyItalic.ttf) format("truetype");
+  font-weight:800;
+  font-style:italic;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-Heavy.woff2) format("woff2"),url(fonts/AvenirNext-Heavy.woff) format("woff"),url(fonts/AvenirNext-Heavy.ttf) format("truetype");
+  font-weight:900;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir Next;
+  src:url(fonts/AvenirNext-HeavyItalic.woff2) format("woff2"),url(fonts/AvenirNext-HeavyItalic.woff) format("woff"),url(fonts/AvenirNext-HeavyItalic.ttf) format("truetype");
+  font-weight:900;
+  font-style:italic;
+  font-display:swap;
+} 
+  body {  
+    background:var(--page-bg-color);
+    color:var(--content-primary-color);
+    font-family:var(--font-primary);
+  }  
+* { 
+    box-sizing: inherit;
+} 
+
+body { 
+    transition: opacity ease-in 0.2s;
+} 
+
+body { 
+    height: 100%;
+} 
+
+body { 
+    background: var(--page-bg-color); 
+    color: var(--content-primary-color); 
+    font-family: var(--font-primary); 
+    -webkit-text-fill-color: currentcolor; 
+    margin: 0;
+} 
+
+html { 
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+} 
+
+html { 
+    height: 100%;
+} 
+
+:root { 
+    --blue-200: #0096e5; 
+    --blue-300: #0fadff; 
+    --black-200: #16191c; 
+    --gray-50: #f7f7f7; 
+    --gray-150: #ebebeb; 
+    --yellow-200: #ffd301; 
+} 
+
+:root { 
+    --yellow-v100: #fffc00; 
+    --gray-v40: #363738; 
+    --gray-v200: #d4d5d6; 
+    --gray-400: #656b73; 
+    --black-v50: #53575b; 
+    --black-v100: #3a3e41; 
+    --black-v150: #121314; 
+    --nav-button-top: 25px; 
+    --cta-footer-z-index: 7; 
+} 
+
+:root { 
+    --mobile-button-top: var(--nav-button-top); 
+} 
+
+:root { 
+    --font-primary: Avenir Next,Helvetica,sans-serif; 
+} 
+
+.PageSkeleton_pageWrapper__D44FB { 
+    min-height: 100%; 
+    background: var(--gray-50);
+} 
+
+*,:after,:before { 
+    box-sizing: inherit;
+} 
+
+.PageFrame_pageFrame__LST7x { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    position: relative; 
+    height: 100%; 
+    width: 100%;
+} 
+
+.PageFrame_desktopContentWrapper__GNLle { 
+    width: 100%; 
+    height: 100%; 
+    display: grid; 
+    grid-template-areas: "content";
+} 
+
+.CommonPageFrame_footerWrapper__4vnP6 { 
+    width: 100%;
+} 
+
+.MobilePageFrameFooter_mobileFooterWrapper__y_7Zy { 
+    position: absolute; 
+    bottom: 0;
+} 
+
+@media (min-width: 768px){ 
+  .mobileOnly { 
+    display: none;
+  } 
+}     
+
+.PageFrame_desktopPageContent__ogNsw { 
+    width: 100%; 
+    grid-area: content; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+} 
+
+.PageSkeleton_pageContentCustomStyles__A_ayo { 
+    min-height: 100vh; 
+    justify-content: space-between;
+} 
+
+.Login_allElementsWrapper__Ld1Dk { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2px; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.Login_container__KLPD5 { 
+    box-sizing: border-box; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 64px; 
+    margin-bottom: 64px; 
+    background: #fff; 
+    border-radius: 6px; 
+    border-color: 1px solid var(--gray-150); 
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.13); 
+    width: 500px; 
+    max-width: 95%;
+} 
+
+.Login_container__KLPD5 { 
+    max-width: 356px; 
+    border: 1px solid #ebebeb; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.04); 
+    padding: 24px; 
+    margin-top: 50px; 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 0;
+} 
+
+.Footer_footerContainer__4A7_0 { 
+    bottom: 0; 
+    z-index: var(--cta-footer-z-index); 
+    width: 100%;
+} 
+
+.Shared_title__6SqEP { 
+    text-align: center; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 28px; 
+    line-height: 32px; 
+    color: #16191c;
+} 
+
+.Shared_accountIdentifier__WTV12 { 
+    font-family: Avenir Next,Helvetica Neue,Helvetica,Arial,sans-serif!important; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 8px 16px; 
+    gap: 10px; 
+    height: 40px; 
+    border: 1px solid #eee; 
+    border-radius: 8px;
+} 
+
+.Login_form__u_9g5 { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 6px; 
+    width: 100%;
+} 
+
+.ResponsiveSnapchatFooter_container__NiYw6 { 
+    width: 100%;
+} 
+
+.ResponsiveSnapchatFooter_containerDesktop__JksDB { 
+    margin-bottom: 52px;
+} 
+
+.ResponsiveSnapchatFooter_containerDesktopWithoutFooterContents__kpUzS { 
+    margin-bottom: 0;
+} 
+
+.Shared_accountIdentifier__WTV12 p  { 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 16px; 
+    line-height: 24px; 
+    color: var(--black-200); 
+    margin: 0;
+} 
+
+.Shared_accountIdentifier__WTV12 a  { 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 14px; 
+    line-height: 20px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: flex-end; 
+    color: var(--blue-300); 
+    border-bottom: 0;
+} 
+
+.Shared_accountIdentifier__WTV12 a:hover { 
+    text-decoration: underline; 
+    color: var(--blue-200); 
+    cursor: pointer;
+} 
+
+.password_row__of5tf { 
+    flex: .8; 
+    margin-top: 24px;
+} 
+
+.password_actionButtons__H_5ji { 
+    margin: 4px 24px 16px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    text-align: center; 
+    color: var(--black-200);
+} 
+
+.password_enabledButton__rkERX { 
+    color: var(--blue-300); 
+    font-weight: 600; 
+    text-decoration: none; 
+    border-bottom: 0; 
+    cursor: pointer; 
+    padding: 4px;
+} 
+
+.Login_row__YVYTT { 
+    flex: .8;
+} 
+
+.Login_centerElement__VMykY { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.TextInput_textInputContainer__5XOd0 { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 4px; 
+    margin: 5px auto;
+} 
+
+button { 
+    -webkit-tap-highlight-color: transparent; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    color: inherit; 
+    font: inherit;
+} 
+
+.Login_next__2nEN0 { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.Login_next__2nEN0 { 
+    height: 40px; 
+    min-width: 80px; 
+    border-radius: 45px; 
+    color: #fff; 
+    background: var(--blue-300); 
+    border: none; 
+    cursor: pointer; 
+    padding: 20px; 
+    font-size: 14px;
+} 
+
+.Login_next__2nEN0:hover { 
+    background: var(--blue-200);
+} 
+
+.ResponsiveSnapchatFooter_footerContainer__ulAu9 { 
+    position: relative; 
+    width: 100%; 
+    min-height: 48px;
+} 
+
+.Heading_h600__IqY8L { 
+    font-weight: 500;
+} 
+
+.Heading_h600__IqY8L { 
+    font-size: 14px; 
+    font-style: normal; 
+    line-height: 18px; 
+    letter-spacing: 0; 
+    margin: 0;
+} 
+
+.TextInput_textInputContainer__5XOd0 .TextInput_fieldWithIcon__MnOEz  { 
+    width: inherit; 
+    display: flex; 
+    flex-direction: row; 
+    background: var(--gray-50); 
+    border-radius: 8px; 
+    height: 48px;
+} 
+
+.TextInput_textInputHover__h602r:hover { 
+    border: 1px solid var(--yellow-200);
+} 
+
+.TextInput_textInputContainer__5XOd0 .TextInput_fieldWithIcon__MnOEz:hover { 
+    border: 1px solid var(--yellow-200);
+} 
+
+.TextInput_label__G5rQV { 
+    color: var(--gray-400); 
+    font-size: 13px; 
+    font-weight: 600;
+} 
+
+input { 
+    font-family: inherit;
+} 
+
+.TextInput_textInputContainer__5XOd0 .TextInput_fieldWithIcon__MnOEz .TextInput_textInput__XIzwQ  { 
+    width: 100%; 
+    padding: 0 12px; 
+    border: transparent; 
+    background: transparent; 
+    outline: none;
+} 
+
+.TextInput_rightIcon__B4qnm { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 5px; 
+    cursor: pointer;
+} 
+
+.footer-container { 
+    width: 92.3%; 
+    max-width: 1070px; 
+    margin: auto;
+} 
+
+.footer-container { 
+    box-sizing: content-box; 
+    position: relative; 
+    padding: 30px 0 30px; 
+    min-height: 195px;
+} 
+
+.password_label__VrJM2 { 
+    font-size: 12px; 
+    font-weight: 600;
+} 
+
+.footer-container .footer-column  { 
+    position: relative; 
+    box-sizing: border-box; 
+    float: left; 
+    width: 25%; 
+    padding-inline-end: 6.25%;
+} 
+
+.footer-container .langue-selection-block  { 
+    position: absolute; 
+    box-sizing: border-box; 
+    padding-block-start: 0; 
+    padding-block-end: 15px; 
+    padding-inline-start: 0; 
+    padding-inline-end: 6.25%; 
+    bottom: 15px; 
+    width: 25%;
+} 
+
+.footer-bottom-bar { 
+    width: 92.3%; 
+    max-width: 1070px; 
+    margin: auto;
+} 
+
+.footer-container .footer-column .footer-column-expand-caret  { 
+    display: none;
+} 
+
+.footer-container .footer-column .footer-column-header  { 
+    box-sizing: content-box; 
+    color: rgba(0,0,0,.87); 
+    line-height: 23px; 
+    font-weight: 500;
+} 
+
+.footer-container .langue-selection-block .langue-header  { 
+    color: rgba(0,0,0,.87); 
+    font-weight: 500;
+} 
+
+.footer-bottom-bar a  { 
+    line-height: 56px; 
+    margin-inline-end: 40px; 
+    color: white; 
+    text-decoration: none;
+} 
+
+.footer-container .footer-column a  { 
+    display: table; 
+    color: rgba(0,0,0,.87); 
+    text-decoration: none; 
+    line-height: 17px; 
+    margin-top: 6px;
+} 
+
+.footer-container .footer-column a:hover { 
+    color: black;
+} 
+
+select { 
+    font-family: inherit;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-cHE8K.style-cHE8K {  
+   background-color: rgb(248, 249, 251);  
+    font-size: 14px;  
+    line-height: 17px;  
+}  
+#style-7odSV.style-7odSV {  
+   clear: both;  
+}  
+#style-CN9bU.style-CN9bU {  
+   position: relative;  
+}  
+#sc-global-locale-selector.style-eBPKH {  
+   appearance: none;  
+    border: 1px solid rgb(204, 204, 204);  
+    border-radius: 5px;  
+    background: white;  
+    width: 100%;  
+    margin-top: 10px;  
+    padding: 5px 10px;  
+    font-size: 14px;  
+    font-family: inherit;  
+    color: rgba(0, 0, 0, 0.6);  
+    height: 34px;  
+    cursor: pointer;  
+}  
+#style-o6AL1.style-o6AL1 {  
+   position: absolute;  
+    inset-inline-end: 10px;  
+    width: 0px;  
+    height: 0px;  
+    pointer-events: none;  
+    border-style: solid;  
+    bottom: 18px;  
+    border-width: 0px 3px 5px;  
+    border-color: transparent transparent rgb(102, 102, 102);  
+}  
+#style-szcQq.style-szcQq {  
+   position: absolute;  
+    inset-inline-end: 10px;  
+    width: 0px;  
+    height: 0px;  
+    pointer-events: none;  
+    border-style: solid;  
+    bottom: 10px;  
+    border-width: 5px 3px 0px;  
+    border-color: rgb(102, 102, 102) transparent transparent;  
+}  
+#style-ZExfr.style-ZExfr {  
+   background-color: rgb(38, 38, 38);  
+}  
+#style-ZwZ8L.style-ZwZ8L {  
+   clear: both;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-ziGef.style-ziGef {  
+   background-color: rgb(248, 249, 251);  
+    font-size: 14px;  
+    line-height: 17px;  
+}  
+#style-ZOna2.style-ZOna2 {  
+   clear: both;  
+}  
+#style-Zai4s.style-Zai4s {  
+   position: relative;  
+}  
+#sc-global-locale-selector.style-qsZKw {  
+   appearance: none;  
+    border: 1px solid rgb(204, 204, 204);  
+    border-radius: 5px;  
+    background: white;  
+    width: 100%;  
+    margin-top: 10px;  
+    padding: 5px 10px;  
+    font-size: 14px;  
+    font-family: inherit;  
+    color: rgba(0, 0, 0, 0.6);  
+    height: 34px;  
+    cursor: pointer;  
+}  
+#style-tC3IS.style-tC3IS {  
+   position: absolute;  
+    inset-inline-end: 10px;  
+    width: 0px;  
+    height: 0px;  
+    pointer-events: none;  
+    border-style: solid;  
+    bottom: 18px;  
+    border-width: 0px 3px 5px;  
+    border-color: transparent transparent rgb(102, 102, 102);  
+}  
+#style-RyDUz.style-RyDUz {  
+   position: absolute;  
+    inset-inline-end: 10px;  
+    width: 0px;  
+    height: 0px;  
+    pointer-events: none;  
+    border-style: solid;  
+    bottom: 10px;  
+    border-width: 5px 3px 0px;  
+    border-color: rgb(102, 102, 102) transparent transparent;  
+}  
+#style-H4ogJ.style-H4ogJ {  
+   background-color: rgb(38, 38, 38);  
+}  
+#style-tbQmZ.style-tbQmZ {  
+   clear: both;  
+}  
